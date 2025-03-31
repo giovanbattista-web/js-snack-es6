@@ -1,3 +1,4 @@
+/* SNACK 1 */
 const biciclette = [
     {
         nome: 'Focus',
@@ -24,3 +25,23 @@ for (let i = 0; i < biciclette.length; i++) {
 }
 
 console.log(minore);
+
+/* SNACK 2 */
+
+const squadre = [
+    {
+        nome: 'Juve',
+        puntiFatti: 100,
+        falliSubiti: 70
+    },
+    {
+        nome: 'Napoli',
+        puntiFatti: 80,
+        falliSubiti: 50
+    },
+    {
+        nome: 'Inter',
+        puntiFatti: 70,
+        falliSubiti: 40
+    }
+]
