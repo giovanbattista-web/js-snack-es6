@@ -46,4 +46,16 @@ const squadre = [
     }
 ]
 
+let puntiFatti;
+let falliSubiti;
+
+let getRandomNumber = (min,max) => Math.floor(Math.random() * (max - min + 1) + min);
+
+    for (let i=0; i < squadre.length; i++){
+        squadre.puntiFatti = getRandomNumber(20, 120);
+        squadre.falliSubiti = getRandomNumber(10, 30);
+    }
+
+console.log(squadre);
+    
 
