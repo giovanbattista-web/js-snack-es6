@@ -46,16 +46,27 @@ const squadre = [
     }
 ]
 
+console.log(squadre);
+
 let puntiFatti;
 let falliSubiti;
+let nuovoArray = [];
 
-let getRandomNumber = (min,max) => Math.floor(Math.random() * (max - min + 1) + min);
+let generateRandomNumbers = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
 
-    for (let i=0; i < squadre.length; i++){
-        squadre.puntiFatti = getRandomNumber(20, 120);
-        squadre.falliSubiti = getRandomNumber(10, 30);
-    }
+for (let i = 0; i < squadre.length; i++) {
+    squadre.puntiFatti = generateRandomNumbers(20, 120);
+    squadre.falliSubiti = generateRandomNumbers(10, 30);
+}
 
-console.log(squadre);
+for (let i=0; i < squadre.length; i++){
+    nuovoArray.push(squadre.nome , squadre.falliSubiti);
     
+
+}
+console.log(nuovoArray);
+
+
+
+
 
