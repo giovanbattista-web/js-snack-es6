@@ -31,17 +31,19 @@ console.log(minore);
 const squadre = [
     {
         nome: 'Juve',
-        puntiFatti: 100,
-        falliSubiti: 70
+        puntiFatti: 0,
+        falliSubiti: 0
     },
     {
         nome: 'Napoli',
-        puntiFatti: 80,
-        falliSubiti: 50
+        puntiFatti: 0,
+        falliSubiti: 0
     },
     {
         nome: 'Inter',
-        puntiFatti: 70,
-        falliSubiti: 40
+        puntiFatti: 0,
+        falliSubiti: 0
     }
 ]
+
+
