@@ -1,16 +1,5 @@
-// SNACK 1 
-
-// CREAZIONE DI UN ARRAY DI OGGETTI (OGNI OGGETTO DESCRIVERA' UNA BICICLETTA DA CORSA AVENTI LE SEGUENTI 
-// CARATTERISTICHE : NOME E PESO)
-// SI INIZIA A SCORRERE L'ARRAY PARTENDO DALL'INDICE 0
-// SI VA A CICLARE L'ARRAY, SE ESISTE UN PESO MINORE DI QUELLO ASSEGNATO ALLORA IL PESO MINORE VERRA' ASSEGNATO AD UN NUOVO ARRAY 
-// SI UTILIZZA UN VARIABILE CHE ANDRA' A CONTENERE IL PESO MINORE 
-// STAMPA FINALE DEL PESO MINORE 
-
-// SNACK 2 
-
-// CREAZIONE DI UN ARRAY DI SQUADRE CALCISTICHE AVENTE LE SEGUENTI PROPRIETA' : NOME, PUNTI FATTI E FALLI SUBITI
-// PROPRIETA' NOME DA COMPILARE MENTRE LE ALTRE PROPRIETA' SETTATE A 0
-// GENERAZIONE DI NUMERI RANDOM AL POSTO DEGLI 0 NELLE PROPRIETA' "PUNTI FATTI" E "FALLI SUBITI"
-// CREAZIONE DI UN NUOVO ARRAY CONTENENTE I NOMI E I FALLI SUBITI
-// STAMPA IN CONSOLE 
+Esercizio di oggi: Snack Array e
+Oggetti cartella/repo ****js-snack-es6
+Snack 1 Creare un array di oggetti: Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso. Stampare in console la bici con peso minore.
+Snack2 Creare un array di oggetti di squadre di calcio. Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti. Nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0. Generare numeri random al posto degli 0 nelle proprietà “punti” fatti e “falli subiti”. Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
+Numero minimo push: 7
